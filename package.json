@@ -1,0 +1,18 @@
+{
+  "name": "whatsapp-payment-reminder",
+  "version": "1.0.0",
+  "description": "Automated WhatsApp Web agent for sending payment reminders to clients",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": ["whatsapp", "payment", "reminder", "automation"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "whatsapp-web.js": "^1.23.0",
+    "qrcode-terminal": "^0.12.0",
+    "node-cron": "^3.0.3",
+    "dotenv": "^16.3.1"
+  }
+}
